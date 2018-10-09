@@ -19,7 +19,7 @@ import org.testng.TestNG;
 public class TestA {
 	
 	WebDriver driver;
-	
+	Rat
 	@BeforeMethod	
 	@BeforeClass
 	public void setUp() {

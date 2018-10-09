@@ -25,6 +25,7 @@ public class TestA {
 		System.out.println("*******************");
 		System.out.println("launching chrome browser");
 		System.setProperty("webdriver.chrome.driver","src/test/resources/drivers/chromedriver.exe");
+		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 	}
 	

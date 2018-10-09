@@ -1,17 +1,5 @@
-<macrodef name = "git">
-    <attribute name = "command" />
-    <attribute name = "dir" default = "" />
-    <element name = "args" optional = "true" />
-    <sequential>
-        <echo message = "git @{command}" />
-        <exec executable = "git" dir = "@{dir}">
-            <arg value = "@{command}" />
-            <args/>
-        </exec>
-    </sequential>
-</macrodef>
 
-<macrodef name = "git-clone-pull">
+<project name = "git-clone-pull">
     <attribute name = "repository" />
     <attribute name = "dest" />
     <sequential>
@@ -23,4 +11,4 @@
         </git>
         <git command = "pull" dir = "E:\bhargav\com\TestNg"/>
     </sequential>
-</macrodef>
+</project>

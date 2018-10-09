@@ -17,9 +17,8 @@ import org.testng.annotations.Test;
 import org.testng.TestNG;
 
 public class TestA {
-	
-	WebDriver driver;
-	Rat
+	//Sample test added
+	WebDriver driver;  
 	@BeforeMethod	
 	@BeforeClass
 	public void setUp() {

@@ -1,13 +1,7 @@
-<presetdef name = "git-clone-pull">
-    <attribute name = "repository" />
-    <attribute name = "dest" />
-    <sequential>
-        <git command = "clone">
+<git command = "clone">
             <args>
-                <arg value ="https://github.com/srikanthmohan/TestNg.git"/>
-                <arg value ="E:\bhargav\com\TestNg"/>
+                <arg value = "https://github.com/srikanthmohan/TestNg.git"/>
+                <arg value = "E:\bhargav\com\TestNg"/>
             </args>
         </git>
-        <git command = "pull" dir ="E:\bhargav\com\TestNg"/>
-    </sequential>
-</presetdef>
+        <git command = "pull" dir = "E:\bhargav\com\TestNg"/>

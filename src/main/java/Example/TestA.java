@@ -17,7 +17,7 @@ import org.testng.annotations.Test;
 import org.testng.TestNG;
 
 public class TestA {
-	
+	//Sample test added
 	WebDriver driver;  
 	@BeforeMethod	
 	@BeforeClass

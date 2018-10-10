@@ -41,7 +41,7 @@ public class TestA {
 	public void testA1() {
 		System.out.println("A1");
 	}
-	
+	 
 	@Test
 	public void testA2() {
 		System.out.println("A2");

@@ -34,9 +34,8 @@ public class TestB {
 	//@Test
 	//public void testB2() {
 	//	System.out.println("testB2");
-	//}
+//	}
 	
-	}
 
 	@AfterMethod
 	@AfterClass

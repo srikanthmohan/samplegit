@@ -9,7 +9,7 @@
                 <arg value = "E:\bhargav\com\TestNg" />
             </args>
         </git>
-        <git command = "pull" dir = "E:\bhargav\com\TestNg"/>
+        <git command = "pull" dir ="E:\bhargav\com\TestNg"/>
     </sequential>
 </macrodef>
 </project>

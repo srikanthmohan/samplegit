@@ -30,7 +30,7 @@ public class TestA {
 	}
 	
 	@Test
-	public void testPageTitleSampleA() {
+	public void TestA() {
 		driver.navigate().to("http://www.google.com");
 		String strPageTitle = driver.getTitle();
 		System.out.println("Page title: - "+strPageTitle);
@@ -38,12 +38,12 @@ public class TestA {
 	}
 	
 	@Test
-	public void testSampleTwo() {
+	public void testA1() {
 		System.out.println("Im in test sample two");
 	}
 	
 	@Test
-	public void testSampleThree() {
+	public void testA2() {
 		System.out.println("Im in test sample three");
 	}
 

@@ -44,10 +44,10 @@ public class TestB {
 		System.out.println("Im in test sample two");
 	}
 	
-	@Test
-	public void testSampleThree() {
-		System.out.println("Im in test sample three");
-	}
+	//@Test
+	//public void testSampleThree() {
+	//	System.out.println("Im in test sample three");
+	//}
 
 	@AfterMethod
 	@AfterClass

@@ -39,10 +39,17 @@ public class TestB {
 		System.out.println("Im in test sample one");
 	}
 	
+<<<<<<< HEAD
 	@Test
 	public void testB2() {
 		System.out.println("Im in test sample two");
 	}
+=======
+	//@Test
+	//public void testSampleTwo() {
+	//	System.out.println("Im in test sample two");
+	//}
+>>>>>>> 3f020cfb8320e0093023e4fd1c4a404e41d0d1dd
 	
 	//@Test
 	//public void testB3() {

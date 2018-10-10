@@ -33,12 +33,7 @@ public class TestB {
 		System.out.println("Page title: - "+strPageTitle);
 		AssertJUnit.assertTrue(strPageTitle.equalsIgnoreCase("Google"));
 	}
-	
-	@Test
-	public void testB1() {
-		System.out.println("Im in test sample one");
-	}
-	
+
 <<<<<<< HEAD
 	@Test
 	public void testB2() {

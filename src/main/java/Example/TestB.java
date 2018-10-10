@@ -26,30 +26,7 @@ public class TestB {
 		driver.manage().window().maximize();
 	}
 	
-	@Test
-	public void testB() {
-		driver.navigate().to("http://www.google.com");
-		String strPageTitle = driver.getTitle();
-		System.out.println("Page title: - "+strPageTitle);
-		AssertJUnit.assertTrue(strPageTitle.equalsIgnoreCase("Google"));
 	}
-
-<<<<<<< HEAD
-	@Test
-	public void testB2() {
-		System.out.println("Im in test sample two");
-	}
-=======
-	//@Test
-	//public void testSampleTwo() {
-	//	System.out.println("Im in test sample two");
-	//}
->>>>>>> 3f020cfb8320e0093023e4fd1c4a404e41d0d1dd
-	
-	//@Test
-	//public void testB3() {
-	//	System.out.println("Im in test sample three");
-	//}
 
 	@AfterMethod
 	@AfterClass

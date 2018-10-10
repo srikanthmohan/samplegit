@@ -1,3 +1,4 @@
+<project name="Ant Build Script with Git Support">
 <macrodef name = "git-clone-pull">
     <attribute name = "repository" />
     <attribute name = "dest" />
@@ -11,3 +12,4 @@
         <git command = "pull" dir = "E:\bhargav\com\TestNg"/>
     </sequential>
 </macrodef>
+</project>

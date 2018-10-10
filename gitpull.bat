@@ -1,4 +1,4 @@
 cd E:\bhargav\com\TestNg
 set HOME=%USERPROFILE%
-git pull origin master 
+git push origin master 
 pause

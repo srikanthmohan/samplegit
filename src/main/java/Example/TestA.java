@@ -39,12 +39,12 @@ public class TestA {
 	
 	@Test
 	public void testA1() {
-		System.out.println("Im in test sample two");
+		System.out.println("testA1");
 	}
 	
 	@Test
 	public void testA2() {
-		System.out.println("Im in test sample three");
+		System.out.println("testA2");
 	}
 
 	@AfterMethod

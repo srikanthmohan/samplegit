@@ -1,4 +1,4 @@
-<project name="Ant Build Script with Git Support">
+<project name="TestNg">
 <macrodef name = "git-clone-pull">
     <attribute name = "repository" />
     <attribute name = "dest" />

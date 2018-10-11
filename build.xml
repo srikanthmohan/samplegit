@@ -1,10 +1,10 @@
 <project>
 <target name="ftp" description="upload war file to server">
 <ftp action="send"
-  server="ftp://ftp.dlptest.com/"
+  server="ftp.dlptest.com"
   userid="dlpuser@dlptest.com"
   password="e73jzTRTNqCN9PYAAjjn"
-  remotedir="/Landingzone/">
+  remotedir="/">
   <fileset dir="E:\bhargav\com\TestNg\upload file\BMV.txt">
       <include name="**/*"/>
   </fileset>

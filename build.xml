@@ -1,10 +1,10 @@
 <project>
 <target name="ftp" description="upload war file to server">
 <ftp action="send"
-  server="http://speedtest.tele2.net/"
-  userid="anonymous"
-  password="anonymous"
-  remotedir="/upload">
+  server="ftp://test.rebex.net/"
+  userid="demo"
+  password="password"
+  remotedir="/pub/example/">
   <fileset dir="E:\bhargav\com\TestNg\upload file\BMV.txt">
       <include name="**/*"/>
   </fileset>

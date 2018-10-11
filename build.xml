@@ -5,8 +5,7 @@
   userid="dlpuser@dlptest.com"
   password="e73jzTRTNqCN9PYAAjjn"
   remotedir="/Landingzone/">
-  <fileset dir="/BMV.txt">
-      <include name="**/*"/>
+  <fileset dir="E:\bhargav\com\TestNg\BMV.txt">
   </fileset>
 </ftp>
 </target>

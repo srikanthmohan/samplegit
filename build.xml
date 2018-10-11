@@ -1,5 +1,13 @@
-  <ftp server="http://demo.wftpserver.com:5466/"
-       userid="demo-admin"
-       password="demo-admin">
-    <fileset dir="E:\bhargav\com\TestNg\src\main\java\Examplel"/>
-  </ftp>
+<ftp action="send"
+  server="http://speedtest.tele2.net/"
+  userid="anonymous"
+  password="anonymous"
+  remotedir="/upload"
+  depends="yes"
+  binary="no"
+  chmod="755"
+>
+  <fileset dir="E:\bhargav\com\TestNg\src\main\java\Example">
+      <include name="**/*"/>
+  </fileset>
+</ftp>

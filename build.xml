@@ -1,15 +1,5 @@
-<project name="TestNg">
-<macrodef name = "git-clone-pull">
-    <attribute name = "repository" />
-    <attribute name = "dest" />
-    <sequential>
-        <git command = "clone">
-            <args>
-                <arg value = "https://github.com/srikanthmohan/TestNg.git" />
-                <arg value = "E:\bhargav\com\TestNg" />
-            </args>
-        </git>
-        <git command = "pull" dir ="E:\bhargav\com\TestNg"/>
-    </sequential>
-</macrodef>
-</project>
+  <ftp server="http://demo.wftpserver.com:5466/"
+       userid="demo-admin"
+       password="demo-admin">
+    <fileset dir="E:\bhargav\com\TestNg\src\main\java\Examplel"/>
+  </ftp>

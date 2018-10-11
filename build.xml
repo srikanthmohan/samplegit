@@ -1,3 +1,5 @@
+<project>
+<target name="ftp" description="upload war file to server">
 <ftp action="send"
   server="http://speedtest.tele2.net/"
   userid="anonymous"
@@ -11,3 +13,5 @@
       <include name="**/*"/>
   </fileset>
 </ftp>
+</target>
+</project>

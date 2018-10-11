@@ -4,12 +4,8 @@
   server="http://speedtest.tele2.net/"
   userid="anonymous"
   password="anonymous"
-  remotedir="/upload"
-  depends="yes"
-  binary="no"
-  chmod="755"
->
-  <fileset dir="E:\bhargav\com\TestNg\src\main\java\Example">
+  remotedir="/upload">
+  <fileset dir="E:\bhargav\com\TestNg\upload file\BMV.txt">
       <include name="**/*"/>
   </fileset>
 </ftp>

@@ -5,7 +5,7 @@
   username="dlpuser@dlptest.com"
   password="e73jzTRTNqCN9PYAAjjn"
   remotedir="/directory/">
-  <fileset dir="E:\bhargav\com\TestNg\upload file\BMV.txt">
+  <fileset dir="C:\Users\AITA CS 12\Desktop\Desktop\keyboard.jpg">
   </fileset>
 </ftp>
 </target> 

@@ -14,7 +14,7 @@ import org.testng.TestNG;
 
 public class TestB {
 	
-	public WebDriver;
+	public WebDriver driver ;
 	
 	@BeforeMethod
 	@BeforeClass
@@ -27,10 +27,10 @@ public class TestB {
 	}
 	
 	@Test
-	public void testB1() {
-		System.out.println("testB1");
-	}
-	
+	//public void testB1() {
+	//	System.out.println("testB1");
+	//}
+//	
 	//@Test
 	//public void testB2() {
 	//	System.out.println("testB2");

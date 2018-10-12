@@ -2,7 +2,7 @@
 <target name="ftp" description="upload war file to server">
 <ftp action="put" 
   server="ftp://speedtest.tele2.net"
-  userid="anonymous"
+  username="anonymous"
   password="anonymous"
   remotedir="ftp://speedtest.tele2.net/upload/">
   <fileset dir="E:\bhargav\com\TestNg\upload file\BMV.txt">

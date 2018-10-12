@@ -4,7 +4,7 @@
   server="ftp://speedtest.tele2.net"
   username="anonymous"
   password="anonymous"
-  remotedir="ftp://speedtest.tele2.net/upload/">
+  remotedir="ftp://speedtest.tele2.net/upload">
   <fileset dir="E:\bhargav\com\TestNg\upload file\BMV.txt">
   </fileset>
 </ftp>

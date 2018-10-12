@@ -1,10 +1,10 @@
 <project>
 <target name="ftp" description="upload war file to server">
 <ftp action="put" 
-  server="ftp://speedtest.tele2.net"
-  username="anonymous"
-  password="anonymous"
-  remotedir="ftp://speedtest.tele2.net/upload">
+  server="ftp://test.rebex.net/"
+  username="demo"
+  password="password"
+  remotedir="ftp://test.rebex.net/pub/">
   <fileset dir="E:\bhargav\com\TestNg\upload file\BMV.txt">
   </fileset>
 </ftp>

@@ -1,6 +1,6 @@
 <project>
 <target name="ftp" description="upload war file to server">
-<ftp action="put"
+<ftp action="put" 
   server="ftp://speedtest.tele2.net"
   userid="anonymous"
   password="anonymous"

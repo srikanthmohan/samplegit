@@ -26,7 +26,7 @@ public class TestB {
 		driver.manage().window().maximize();
 	}
 	
-	//@Test
+	@Test
 	//public void testB1() {
 	//	System.out.println("testB1");
 	//}

@@ -14,7 +14,7 @@ import org.testng.TestNG;
 
 public class TestB {
 	
-	public WebDriver ;
+	public WebDriver;
 	
 	@BeforeMethod
 	@BeforeClass

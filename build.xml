@@ -1,11 +1,11 @@
 <project>
 <target name="ftp" description="upload war file to server">
-<ftp action="send"
-  server="ftp.dlptest.com"
-  userid="dlpuser@dlptest.com"
-  password="e73jzTRTNqCN9PYAAjjn"
-  remotedir="ftp://ftp.dlptest.com/Landingzone/">
-  <fileset dir="E:\bhargav\com\TestNg\BMV.txt">
+<ftp action="put"
+  server="ftp://speedtest.tele2.net"
+  userid="anonymous"
+  password="anonymous"
+  remotedir="/upload/">
+  <fileset dir="E:\bhargav\com\TestNg\upload file\BMV.txt">
   </fileset>
 </ftp>
 </target>

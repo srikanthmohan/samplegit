@@ -5,7 +5,6 @@
         <classes> 
         <class name="Example.TestA"/>
         <class name="Example.TestB"/>
-		<class name="Example.helloworld"/>
         </classes>
     </test>
 </suite>

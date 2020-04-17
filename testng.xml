@@ -3,7 +3,8 @@
 <suite name="Main Test Suite" verbose="2">
     <test name="TestNG Test Group" allow-return-values="true">
         <classes> 
-        <class name="Example.TestA"/>
+        <class name="com.TestA"/>
+		<class name="com.TestB"/>
         </classes>
     </test>
 </suite>

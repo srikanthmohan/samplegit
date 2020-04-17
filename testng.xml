@@ -4,7 +4,6 @@
     <test name="TestNG Test Group" allow-return-values="true">
         <classes> 
         <class name="Example.TestA"/>
-        <class name="Example.TestB"/>
         </classes>
     </test>
 </suite>
